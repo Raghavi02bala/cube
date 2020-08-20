@@ -12,9 +12,15 @@ function Home() {
             >
                 <source src={bg_web} type="video/mp4" />
             </video>
-            <div class="header-overlay" className="home__heading">
-                <h1>Welcome To Bluray</h1>
-                <p>Find your dream job here.We help you create your better future.</p>
+            <div className="home__heading">
+                <h1>Find what's Right For You,<br/>
+                    We Provide the best Offers In and Out.
+                </h1>
+
+                <p>Take our help to find the best job offers with ease.
+                    <br/>
+                    Login to join us,build you're career.
+                </p>
             </div>
         </div>
     );

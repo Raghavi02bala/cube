@@ -9,5 +9,21 @@
     z-index: 1;
     color: #fff;
     position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    align-content: center;
+    margin-top: 200px;
+}
 
+.home__heading > p{
+    z-index: 1;
+    color: #fff;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 320px;
+    margin-left: 60px;
+}
+body{
+    margin: 0px;
 }
