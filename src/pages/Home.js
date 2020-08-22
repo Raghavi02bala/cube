@@ -13,15 +13,17 @@ function Home() {
                 <source src={bg_web} type="video/mp4" />
             </video>
             <div className="home__heading">
-                <h1>Find what's Right For You,<br/>
+                <h1>Find what's Right For You,<br />
                     We Provide the best Offers In and Out.
                 </h1>
 
                 <p>Take our help to find the best job offers with ease.
-                    <br/>
+                    <br />
                     Login to join us,build you're career.
                 </p>
             </div>
+            <button type="submit" class="btn btn-primary">Start Here</button>
+            
         </div>
     );
 }
