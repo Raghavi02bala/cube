@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import Header from './pages/Header';
 import About from './pages/About';
+import Contact from './pages/Contact';
+import SignIn from './pages/SignIn';
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
           {/* "/" means the main page itself */}
           <Route path="/about">
             <About/>
+          </Route>
+          <Route path="/contact">
+            <Contact/>
+          </Route>
+          <Route path="/SignIn">
+            <SignIn/>
           </Route>
           {/* the home , "/" should always be placed at the last as it checks for each switch and will find it at first */}
           <Route path="/">

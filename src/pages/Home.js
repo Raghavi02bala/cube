@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import bg_web from '../video/bg_web.mp4';
+import { createBrowserHistory as history } from 'history';
 
 function Home() {
     return (
@@ -22,8 +23,7 @@ function Home() {
                     Login to join us,build you're career.
                 </p>
             </div>
-            <button type="submit" class="btn btn-primary">Start Here</button>
-            
+            <button type="submit" class="btn btn-primary" onClick={() => history().push('/SignIn')}>Start Here</button>
         </div>
     );
 }
