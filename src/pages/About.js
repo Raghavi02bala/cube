@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import bg1_web from '../img/bg1_web.jpg';
+import './About.css';
 
-function About() {
+function Contact() {
     return (
         <div>
-            <h1>Hello About</h1>            
+            <img src={bg1_web} className="bg1_image" alt=""/>           
         </div>
     );
 }
 
-export default About;
+export default Contact;
+

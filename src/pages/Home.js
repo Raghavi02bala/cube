@@ -2,6 +2,9 @@ import React from 'react';
 import './Home.css';
 import bg_web from '../video/bg_web.mp4';
 import { createBrowserHistory as history } from 'history';
+import Contact from './Contact.js';
+import About from './About.js';
+
 
 function Home() {
     return (
@@ -23,9 +26,15 @@ function Home() {
                     Login to join us,build you're career.
                 </p>
             </div>
-            <button type="submit" class="btn btn-primary" onClick={() => history().push('/SignIn')}>Start Here</button>
+            <button type="submit" class="btn btn-primary" onClick={() => history().push('/SignUp')}>Start Here</button>
+            <div className='contact'>
+            </div>
+            <Contact/>
         </div>
+
     );
 }
 
 export default Home;
+
+

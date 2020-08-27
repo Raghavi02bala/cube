@@ -1,20 +1,20 @@
 import React from 'react';
 import './SignUp.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route,Link } from 'react-router-dom';
 
-function SignIn() {
+function SignUp() {
     return (
         <div>
             <div className="App__Aside">
                 <div className="PageSwitcher">
-                    <a href="#" className="PageSwitcher__Item  PageSwitcher__Item--Active">SignIn</a>
-                    <Link to="/signUp" className="PageSwitcher__Item ">Sign Up</Link>
+                    <Link to="/signIn" className="PageSwitcher__Item">SignIn</Link>
+                    <a href="#" className="PageSwitcher__Item  PageSwitcher__Item--Active">Sign Up</a>
                 </div>
                 <div className="FormTitle">
-                    <a className="FormTitle__Link  FormTitle__Link--Active">Sign In</a> <span className="ortag">or</span>
-                    <Link to="/signUp" className="FormTitle__Link">Sign Up</Link>
+                    <Link to="/signIn" className="FormTitle__Link">Sign In</Link> <span className="ortag">or</span>
+                    <a href="#" className="FormTitle__Link   FormTitle__Link--Active">Sign Up</a>
                 </div>
-                <Route path="/SignIn">
+                <Route path="/SignUp">
                     <div className="FormCenter">
                         <from className="FormFields" >
                             <div className="FormField">
@@ -28,7 +28,12 @@ function SignIn() {
                                     placeholder="Enter your password" name="password" />
                             </div>
                             <div className="FormField">
-                                <button className="FormField__Button">Sign In</button>
+                                <label htmlFor="email" className="FormField__Label">e-mail address</label>
+                                <input type="email" id="email" className="FormField__Input"
+                                    placeholder="Enter your Email" name="email" />
+                            </div>
+                            <div className="FormField">
+                                <button className="FormField__Button">Sign Up</button>
                             </div>
                         </from>
                     </div>
@@ -40,5 +45,5 @@ function SignIn() {
     );
 }
 
-export default SignIn;
+export default SignUp;
 

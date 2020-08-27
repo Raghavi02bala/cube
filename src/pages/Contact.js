@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import bg2_web from '../img/bg_web.jpeg';
+import './Contact.css';
 
 function Contact() {
     return (
         <div>
-            <h1>Contact</h1>
+            <img src={bg2_web} className="bg1_image" />
         </div>
     );
 }

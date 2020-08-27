@@ -10,6 +10,7 @@ import {
 import Header from './pages/Header';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import SignUp from './pages/SignUp';
 import SignIn from './pages/SignIn';
 
 function App() {
@@ -18,11 +19,8 @@ function App() {
       <div className="app">
         <Switch>
           {/* "/" means the main page itself */}
-          <Route path="/about">
-            <About/>
-          </Route>
-          <Route path="/contact">
-            <Contact/>
+          <Route path="/SignUp">
+            <SignUp/>
           </Route>
           <Route path="/SignIn">
             <SignIn/>
@@ -30,7 +28,9 @@ function App() {
           {/* the home , "/" should always be placed at the last as it checks for each switch and will find it at first */}
           <Route path="/">
             <Header />
-            <Home />
+            <Home/>
+            <About/> 
+            <Contact/>                       
           </Route>
         </Switch>
       </div>
