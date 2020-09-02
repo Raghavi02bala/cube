@@ -1,9 +1,11 @@
 .video__bg{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100vh;
     object-fit: cover;
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .home__heading > h1{
     z-index: 1;
@@ -13,33 +15,116 @@
     font-weight: bold;
     margin-left: 20px;
     align-content: center;
-    margin-top: 200px;
+    margin-top: -440px;
 }
-
 .home__heading > p{
     z-index: 1;
     color: #fff;
     position: absolute;
     font-size: 20px;
-    margin-top: 320px;
+    margin-top: -320px;
     margin-left: 60px;
 }
-button{
-    position: absolute;
-    width:120px;
-    height: 40px;
-    margin-top: 400px;
-    margin-left: 350px;
-    border: none;
-    border-radius: 5px;
-}
-
-body{
+.body{
     margin: 0px;
 }
-
 .contact{
     position: absolute;
     color: black;
     margin: 620px;
+}
+.button{
+    position: absolute;
+    border: none;
+    height: 40px;
+    width: 130px;
+    margin-top: -250px;
+    margin-left: 450px;
+    border-radius: 10px;
+}
+.home__head>h1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+.first__line{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 190px;
+    font-size: 18px;
+    color:gray;
+}
+.second__line{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 230px;
+    color: gray;
+}
+.Card{
+    margin-left: 100px;
+    position: relative;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;   
+    box-shadow: "1px 3px 1px #9E9E9E";
+}
+.Card__one{
+    margin: 30px;
+}
+.Card__two{
+    margin: 30px;
+}
+.Card__three{
+    margin: 30px;
+}
+.img__bg{
+    width: 100%;
+    height: 100vh;
+}
+.Consultancy > h1{
+    position: relative;
+    margin-top: -500px;
+    color: black;
+    margin-left: 60px;
+}
+.Consultancy > p{
+  position: relative;
+  color: white;
+  margin-left: 20px;
+}
+
+.Analytics > h1{
+    margin-top: 100px;
+    color: black;
+    margin-left: 20px;
+}
+.Analytics > p{
+    position: relative;
+    color: white;
+    margin-left: 20px;
+}
+.Optimization > h1{
+    position: relative;
+    margin-top: -500px;
+    margin-left: 900px;
+}
+.Optimization > p{
+    margin-left: 850px;
+    color: white;
+}
+.Credibility > h1{
+    margin-left: 900px;
+    margin-top: 80px;
+}
+.Credibility > p{
+    margin-left: 850px;
+    color: white;
+}
+.home__brand{
+    margin-top: 150px;
+}
+.home__brand > h1{
+    margin-left: 180px;
+    position: absolute;
+
 }
