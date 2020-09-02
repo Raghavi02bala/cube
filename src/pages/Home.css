@@ -128,3 +128,53 @@
     position: absolute;
 
 }
+.Logo1{
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 200px;
+    display: flex;
+}
+.Logo__amazon{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+}
+.Logo__phone{
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    margin-left: 100px;
+}
+.Logo__indus{
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    margin-left: 200px;
+}
+.Logo__ptm{
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    margin-left: 300px;
+}
+.Logo2{
+    position: absolute;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 200px;    
+}
+.Logo__hdfc{
+    position: absolute;
+    width: 150px;
+    height: 120px;
+}
+.Logo__kotak{
+    position: absolute;
+    margin-left: 200px;
+    width: 200px;
+    height: 200px;
+}
+.Logo__incred{
+    position: absolute;
+    margin-left: 400px;
+}
