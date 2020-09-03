@@ -178,3 +178,52 @@
     position: absolute;
     margin-left: 400px;
 }
+.Contact{
+    margin-top: 350px;
+    width: 100%;
+    height: 50vh;
+    background-color: #2b3340;
+    position: absolute;
+}
+.Contact>h1{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 400px;
+    color: white;
+}
+.Contact__phoneicon{
+    color: white;
+    margin-top: 120px;
+    margin-left: 200px;
+    position: absolute;
+}
+.Contact__phone > p{
+    position: absolute;
+    color: white;
+    margin-top: 120px;
+    margin-left: 250px;
+}
+.Contact__emailicon{
+    margin-top: 520px;
+    color: white;    
+    position: absolute;
+    margin-left: 200px;
+}
+.Contact__email > p{
+    position: absolute;
+    margin-top: 520px;
+    color: white;
+    margin-left: 250px;
+}
+.Contact__locationicon{
+    position: absolute;
+    margin-top: 20px;
+    color: white;
+    margin-left: -50px;
+}
+.Contact__location{
+    position: absolute;
+    margin-top: 570px;
+    color: white;
+    margin-left: 250px;
+}

@@ -13,6 +13,10 @@ import ptm from '../img/paytm.jpg';
 import hdfc from '../img/hdfc.png';
 import kotak from '../img/kotak.jpg';
 import incred from '../img/incred.jpg';
+import PhoneAndroidIcon from '@material-ui/icons/Phone';
+import EmailIcon from '@material-ui/icons/EmailSharp';
+import LocationIcon from '@material-ui/icons/LocationOn';
+
 
 const Home = () => {
     return (
@@ -147,6 +151,20 @@ const Home = () => {
                     <img src={ptm} alt="" className="Logo__ptm" />
                 </div>
             </div>
+            <div className="Contact">
+                <h1>Contact Information</h1>
+                <div className="Contact__phone">
+                    <PhoneAndroidIcon className="Contact__phoneicon" />
+                    <p>+044 4557 2084</p></div>
+            </div>
+            <div className="Contact__email">
+                <EmailIcon className="Contact__emailicon" />
+                <p>support@blurayglobalsolutions.com</p></div>
+            <div className="Contact__location">
+                <LocationIcon className="Contact__locationicon" />
+                <p>Bluray Global Solutions,<br/> 
+                    Regd. Off : 19/20, Kadambadi Amman Kovil St,<br/> 
+                    Valasaravakkam, Chennai - 600087.</p></div>
         </div>
     );
 }
