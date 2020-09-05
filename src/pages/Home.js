@@ -123,33 +123,33 @@ const Home = () => {
 					</p>
                 </div>
             </div>
-            <div className="home__brand">
-                <h1>Some of the best brands that trust our service</h1>
-            </div>
-            <div className="Logo2">
-                <div className="Logo__hdfc">
-                    <img src={hdfc} alt="" className="Logo__amazon" />
+                <div className="home__brand">
+                    <h1>Some of the best brands that trust our service</h1>
                 </div>
-                <div className="Logo__kotak">
-                    <img src={kotak} alt="" className="Logo__phone" />
+                <div className="Logo2">
+                    <div className="Logo__hdfc">
+                        <img src={hdfc} alt="" className="Logo__amazon" />
+                    </div>
+                    <div className="Logo__kotak">
+                        <img src={kotak} alt="" className="Logo__phone" />
+                    </div>
+                    <div className="Logo__incred">
+                        <img src={incred} alt="" className="Logo__indus" />
+                    </div>
                 </div>
-                <div className="Logo__incred">
-                    <img src={incred} alt="" className="Logo__indus" />
-                </div>
-            </div>
-            <div className="Logo1">
-                <div className="Logo__amazon">
-                    <img src={amzpay} alt="" className="Logo__amazon" />
-                </div>
-                <div className="Logo__phone">
-                    <img src={phone} alt="" className="Logo__phone" />
-                </div>
-                <div className="Logo__indus">
-                    <img src={indus} alt="" className="Logo__indus" />
-                </div>
-                <div className="Logo__ptm">
-                    <img src={ptm} alt="" className="Logo__ptm" />
-                </div>
+                <div className="Logo1">
+                    <div className="Logo__amazon">
+                        <img src={amzpay} alt="" className="Logo__amazon" />
+                    </div>
+                    <div className="Logo__phone">
+                        <img src={phone} alt="" className="Logo__phone" />
+                    </div>
+                    <div className="Logo__indus">
+                        <img src={indus} alt="" className="Logo__indus" />
+                    </div>
+                    <div className="Logo__ptm">
+                        <img src={ptm} alt="" className="Logo__ptm" />
+                    </div>
             </div>
             <div className="Contact">
                 <h1>Contact Information</h1>
@@ -162,8 +162,8 @@ const Home = () => {
                 <p>support@blurayglobalsolutions.com</p></div>
             <div className="Contact__location">
                 <LocationIcon className="Contact__locationicon" />
-                <p>Bluray Global Solutions,<br/> 
-                    Regd. Off : 19/20, Kadambadi Amman Kovil St,<br/> 
+                <p>Bluray Global Solutions,<br />
+                    Regd. Off : 19/20, Kadambadi Amman Kovil St,<br />
                     Valasaravakkam, Chennai - 600087.</p></div>
         </div>
     );
