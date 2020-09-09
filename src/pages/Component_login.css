@@ -1,0 +1,10 @@
+.signup{
+    color: white;
+}
+.signlink{
+    color: white;
+}
+.signlink:hover{
+    color: white;
+    text-decoration: none;
+}

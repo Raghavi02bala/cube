@@ -7,7 +7,7 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles , withStyles} from '@material-ui/core/styles';
+import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import './Component.css';
 
@@ -21,25 +21,25 @@ function Copyright() {
 
 const CssTextField = withStyles({
     root: {
-      '& label.Mui-focused': {
-        color: 'white',
-      },
-    //   '& .MuiInput-underline:after': {
-    //     borderBottomColor: 'red',                 not making any big diff
-    //   },
-      '& .MuiOutlinedInput-root': {
-        '& fieldset': {
-          borderColor: 'white',
+        '& label.Mui-focused': {
+            color: 'white',
         },
-        '&:hover fieldset': {
-          borderColor: 'white',
+        //   '& .MuiInput-underline:after': {
+        //     borderBottomColor: 'red',                 not making any big diff
+        //   },
+        '& .MuiOutlinedInput-root': {
+            '& fieldset': {
+                borderColor: 'white',
+            },
+            '&:hover fieldset': {
+                borderColor: 'white',
+            },
+            '&.Mui-focused fieldset': {
+                borderColor: 'white',
+            },
         },
-        '&.Mui-focused fieldset': {
-          borderColor: 'white',
-        },
-      },
     },
-  })(TextField);
+})(TextField);
 
 const cssStyles = makeStyles((theme) => ({
     root: {
@@ -65,11 +65,11 @@ const cssStyles = makeStyles((theme) => ({
     submit: {
         margin: theme.spacing(3, 0, 2),
     },
-        
+
 }));
 
 
-export default function SignUp() {
+export default function login() {
     const classes = cssStyles();
     return (
         <Container component="main" maxWidth="xs">
@@ -78,43 +78,10 @@ export default function SignUp() {
                     <LockOutlinedIcon />
                 </Avatar>
                 <Typography component="h1" variant="h5" className="signup">
-                    Sign up
+                    Log In
         </Typography>
                 <form className={classes.form} noValidate>
                     <Grid container spacing={2}>
-                        <Grid item xs={12} sm={6}>
-                                <CssTextField
-                                    className="textfield"
-                                    autoComplete="fname"
-                                    name="firstName"
-                                    variant="outlined"
-                                    required
-                                    fullWidth
-                                    label="First Name"
-                                    id="firstName"
-                                    autoFocus
-                                    // background color
-                                    className={classes.root}
-                                    InputProps={{
-                                        className: classes.input
-                                    }}
-                                    />                       
-                        </Grid>
-                        <Grid item xs={12} sm={6}>
-                            <CssTextField
-                                variant="outlined"
-                                required
-                                fullWidth
-                                id="lastName"
-                                label="Last Name"
-                                name="lastName"
-                                autoComplete="lname"
-                                className={classes.root}
-                                InputProps={{
-                                    className: classes.input
-                                }}
-                            />
-                        </Grid>
                         <Grid item xs={12}>
                             <CssTextField
                                 variant="outlined"
@@ -151,21 +118,21 @@ export default function SignUp() {
                         <Grid item xs={12}>
                         </Grid>
                     </Grid>
-                    <Link to="login">
-                    <Button
-                        type="submit"
-                        fullWidth
-                        variant="contained"
-                        color="#ff5c5c"
-                        className={classes.submit}
-                    >
-                        Sign Up
+                    <Link to="main">
+                        <Button
+                            type="submit"
+                            fullWidth
+                            variant="contained"
+                            color="#ff5c5c"
+                            className={classes.submit}
+                        >
+                            login
                     </Button>
                     </Link>
                     <Grid container justify="flex-end">
                         <Grid item>
-                            <Link to="/login" className="signlink">
-                                Already have an account? Log in
+                            <Link to="signup" className="signlink">
+                                Don't have an account? Sign Up
               </Link>
                         </Grid>
                     </Grid>
