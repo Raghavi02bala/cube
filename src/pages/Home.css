@@ -8,13 +8,11 @@
     margin-right: 0px;
 }
 .home__heading > h1{
-    z-index: 1;
     color: #fff;
     position: absolute;
     font-size: 40px;
     font-weight: bold;
     margin-left: 20px;
-    align-content: center;
     margin-top: -440px;
 }
 .home__heading > p{

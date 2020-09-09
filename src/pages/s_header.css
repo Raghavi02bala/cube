@@ -1,0 +1,24 @@
+.header{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    z-index: 200;
+    width: 100%;
+}
+.header__loginicon{
+    color: white;
+    margin-left: 900px;
+}
+.header_link{
+    text-decoration: none;
+    position: sticky;
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 20px;
+
+}
+.header_link:hover{
+    text-decoration: none;
+    color: #ffffff;
+}

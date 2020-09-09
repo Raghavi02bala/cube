@@ -4,14 +4,9 @@
     align-items: center;
     position: fixed;
     top: 0;
-    height: 80px;
+    height: 60px;
     z-index: 200;
     width: 100%;
-}
-
-.header__link{
-    color: #ffffff;
-    position: sticky;
 }
 
 .header__basketCount{
@@ -20,11 +15,6 @@
     position: sticky;
 }
 
-.header__optionBasket{
-    display: flex;
-    align-items: center;
-    position: sticky;
-}
 
 .header__option{
     display: flex;
@@ -45,9 +35,6 @@
     margin-top: 15px;
     object-fit: contain;
 }
-.header__loginIcon{
-    color: white;
-}
 .header__aboutIcon{
     color: white;
 }
@@ -56,8 +43,9 @@
 }
 
 .header__link{
-    color: white;
     text-decoration: none;
+    color: #ffffff;
+    position: sticky;
 }
 
 .header__nav{
@@ -76,6 +64,9 @@
 .link:hover{
     text-decoration: none;
     color: white;
+}
+.about{
+    margin-right: 50px;
 }
 
 
